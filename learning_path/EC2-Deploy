@@ -1,4 +1,4 @@
-Hello frd,
+## Hello frd,
 Today what i learnt 
 1. Creating EC2 on hashtag#AWS and 
  # login AWS console login page
@@ -34,3 +34,6 @@ Today what i learnt
 Bonus tip
 WSL is far more reliable than GUI tools like MobaXterm for SSH —
  less abstraction, fewer hidden issues.
+
+old: EC2-Deploy  
+new: Deploy Ec2 on nginx server
