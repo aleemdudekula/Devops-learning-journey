@@ -98,13 +98,13 @@ access.log
 
 error.log
 
-💡 Bonus Tip
+## 💡 Bonus Tip
 
 WSL is more reliable than GUI tools like MobaXterm for SSH
 ✔ Less abstraction
 ✔ Fewer hidden issues
 
-⭐ Final Thought
+## ⭐ Final Thought
 
 This is a simple but powerful way to understand:
 
