@@ -1,36 +1,115 @@
-## Hello frd,
-Today what i learnt 
-## 1. Creating EC2 on hashtag#AWS and 
- # login AWS console login page
- # then go to EC2 instance 
- # click instance and configure u r requirements (OS, ram, cpu, memory)..,
- # create security key file and download either pem file / ppk file 
- # Then launch instance( remeber u r IP later we can use)
-## 2. EC2 Configure on my Local system through WSL on windows
- # copy that file on WSL files 
- --> cp /mnt/c/program\ Files/WSL\pemfile
- # configure Ec2 on WSL
- --> sudo ssh -i pemfile machine@ip(ec2-instance-ip)
- # sudo apt update && upgrade -y this update u r machine
-## 3. Now move to advance 
- # Ec2 instance connect through on web page(like http-port(80)
- # before that u can check inbound rules in security group where u can 
- add rule 
- --> http - 80 - 0.0.0.0/0(Anywhere IPV4)
-## 4. Install Nginx inside u r EC2 instance
- --> sudo apt install nginx -y
- --> sudo systemctl start nginx
-## 5. open web browser type: http://ec2-ip-add/
-## 6. we can find out welcome ngnix 
- # "Boom u r first Ec2 Instance server" deployed"
-## 7. do practice cmds like 
- --> sudo systemctl restart nginx
- --> sudo systemctl stop nginx
- --> sudo systemctl start nginx
- --> sudo systemctl status nginx
-## 8. Go to directory /var/ww/html/ u can modified the file index.html
-## 9. Go to directiry /var/log/nginx u can access file like error.log & access.log file
+## 🚀 AWS EC2 Setup + Nginx Deployment (Beginner Guide)
+👋 Hello Friend,
 
-## Bonus tip
-WSL is far more reliable than GUI tools like MobaXterm for SSH —
- less abstraction, fewer hidden issues.
+Today I learned how to create and configure an EC2 instance on AWS and deploy a basic web server using Nginx.
+
+## 🧱 1. Creating EC2 on AWS
+
+Login to AWS Console
+
+Go to EC2 Dashboard
+
+Click Launch Instance
+
+Configure your requirements:
+
+OS (Ubuntu recommended)
+
+RAM
+
+CPU
+
+Storage
+
+Create a Security Key Pair
+
+Download .pem or .ppk file
+
+Launch the instance
+
+⚠️ Save your EC2 Public IP
+
+## 💻 2. Connect EC2 Using WSL (Windows)
+
+Copy .pem file into WSL:
+
+cp /mnt/c/Program\ Files/WSL/pemfile .
+
+Connect to EC2 via SSH:
+
+sudo ssh -i pemfile machine@<ec2-instance-ip>
+
+Update your system:
+
+sudo apt update && sudo apt upgrade -y
+
+## 🌐 3. Enable HTTP Access (Port 80)
+
+Go to Security Groups
+
+Edit Inbound Rules
+
+Add rule:
+
+Type: HTTP  
+Port: 80  
+Source: 0.0.0.0/0 (Anywhere IPv4)
+
+## ⚙️ 4. Install Nginx on EC2
+sudo apt install nginx -y
+sudo systemctl start nginx
+
+## 🌍 5. Access Your Server
+
+Open your browser and go to:
+
+http://<your-ec2-ip>/
+
+## 🎉 6. Result
+
+You should see:
+
+✔️ Welcome to Nginx page
+
+👉 Boom! Your first EC2 web server is live 🚀
+
+## 🔧 7. Useful Nginx Commands
+sudo systemctl restart nginx
+sudo systemctl stop nginx
+sudo systemctl start nginx
+sudo systemctl status nginx
+
+## 📁 8. Modify Website Content
+
+Go to:
+
+/var/www/html/
+
+Edit:
+
+index.html
+
+## 📊 9. Check Logs
+cd /var/log/nginx
+
+Files:
+
+access.log
+
+error.log
+
+💡 Bonus Tip
+
+WSL is more reliable than GUI tools like MobaXterm for SSH
+✔ Less abstraction
+✔ Fewer hidden issues
+
+⭐ Final Thought
+
+This is a simple but powerful way to understand:
+
+Cloud basics (AWS EC2)
+
+Linux server management
+
+Web server deployment
