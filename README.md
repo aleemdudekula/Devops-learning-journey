@@ -5,7 +5,7 @@ This repository documents my hands-on learning, practical implementations, and p
 
 ## 🔧 Skills Covered:
 
-Linux Fundamentals
+Linux 
 
 User & File Management
 
@@ -16,6 +16,9 @@ Networking Basics
 AWS EC2
 
 Nginx Deployment
+
+AWS 
+EC2, IAM, VPC, Lamdba  
 
 
 ## 📌 Project:
