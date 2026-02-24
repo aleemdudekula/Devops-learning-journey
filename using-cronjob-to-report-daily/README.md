@@ -49,13 +49,3 @@ aws iam list-users
 
 ./aws-resource-tracker.sh | more
 before that check file permissions #ls -lst
-
-
-
-
-
-
-
-
-
-
