@@ -16,7 +16,13 @@
      cmd : sudo apt install aws cli
            aws configure (aws access key id & aws secret access key)
 
-     
+## script prepare:
+
+---> create a file aws-resource-tracker.sh
+
+script:
+
+#!/bin/bash
 
 
 
