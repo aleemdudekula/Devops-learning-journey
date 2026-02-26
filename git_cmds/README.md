@@ -103,33 +103,33 @@ git checkout -b feature-login
 
 Correct professional flow:
 
-# Create feature branch
+### Create feature branch
 
 git checkout -b feature-prime
 
-# Make changes
+### Make changes
 
 git add .
 
 git commit -m "Add prime program"
 
-# Push feature branch
+### Push feature branch
 
 git push origin feature-prime
 
 Now:
 
-# Switch to main
+### Switch to main
 
 git checkout main
 
 git pull origin main
 
-# Merge feature
+### Merge feature
 
 git merge feature-prime
 
-# Push main
+### Push main
 
 git push origin main
 
@@ -161,7 +161,7 @@ Delete branch
 
 Common Strategy: Git Flow
 
-4 Typical Structure:
+### 4 Typical Structure:
 
 main → production
 
