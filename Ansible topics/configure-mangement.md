@@ -4,11 +4,11 @@ Configuration Management is a practice used by DevOps engineers to manage and ma
 
 In earlier days, system administrators managed on-premises servers manually. They logged into each machine individually to perform tasks such as:
 
-#### Upgrading operating systems
+### Upgrading operating systems
 
-#### Applying security patches
+### Applying security patches
 
-#### Installing default software like Git or databases
+### Installing default software like Git or databases
 
 This approach worked when organizations had only a few servers. However, with the growth of cloud computing and microservices, infrastructures expanded from dozens to thousands of servers. Manual management and traditional shell scripts became inefficient because of scale and differences between operating systems such as Ubuntu, CentOS, and Alpine Linux.
 
