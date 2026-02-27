@@ -1,6 +1,6 @@
-## Ansible
+## Ansible tutorial
 
-### configure Mangement 
+configure Mangement 
 
-### Labs for anisible and project
+Labs for anisible and project
 
