@@ -95,7 +95,7 @@ Transition into a **DevOps Engineer role** by building practical projects that d
 
 ## 🤝 Connect With Me
 
-- GitHub: https://github.com/your-username
+- GitHub: https://github.com/aleemdudekula/Portfolio_Aleem
 - LinkedIn: www.linkedin.com/in/aleem-dudekula-99b95525be
 
 ---
