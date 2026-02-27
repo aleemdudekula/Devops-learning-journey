@@ -47,23 +47,23 @@ This flexibility makes it suitable for mixed environments.
 
 Several core concepts are essential when working with Ansible:
 
-#### Inventory Files
+### Inventory Files
 
 Inventory files contain the IP addresses or DNS names of servers that Ansible manages.
 
-#### Dynamic Inventory
+### Dynamic Inventory
 
 Dynamic inventory automatically detects newly created servers in cloud platforms such as AWS. This removes the need to manually update server lists during scaling operations.
 
-#### Passwordless Authentication
+### Passwordless Authentication
 
 Ansible commonly uses SSH key-based authentication so the control machine can connect to target servers without entering passwords manually.
 
-#### Ansible Galaxy
+### Ansible Galaxy
 
 Ansible Galaxy is a community platform where users share reusable roles and modules written mainly in Python. These modules help automate tasks such as configuring load balancers or deploying applications.
 
-#### Disadvantages and Limitations
+### Disadvantages and Limitations
 
 Although powerful, Ansible has some limitations:
 
@@ -73,16 +73,16 @@ Debugging: Error logs can sometimes be difficult to interpret when Playbooks fai
 
 Performance: Large-scale environments with tens of thousands of servers may experience slower execution during parallel operations.
 
-#### Important Interview Topics
+### Important Interview Topics
 
 Common Ansible interview questions often focus on the following areas:
 
 Programming Language: Ansible is written in Python, while users define configurations using YAML.
 
-#### Protocols Used:
+### Protocols Used:
 
 SSH for Linux systems
 
 WinRM for Windows systems
 
-#### Cloud Compatibility: Ansible is cloud-agnostic and works with AWS, Azure, or Google Cloud as long as servers are accessible through SSH or WinRM.
+### Cloud Compatibility: Ansible is cloud-agnostic and works with AWS, Azure, or Google Cloud as long as servers are accessible through SSH or WinRM.
