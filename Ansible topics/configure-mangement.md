@@ -86,3 +86,27 @@ SSH for Linux systems
 WinRM for Windows systems
 
 ### Cloud Compatibility: Ansible is cloud-agnostic and works with AWS, Azure, or Google Cloud as long as servers are accessible through SSH or WinRM.
+
+
+Tools commonly integrated:
+- Jenkins
+- GitHub Actions
+- GitLab CI
+
+---
+
+## Why DevOps Teams Prefer Ansible
+
+- Agentless (no installation on servers)
+- Uses simple YAML files
+- Easy to learn and maintain
+- Works with Linux and cloud environments
+
+---
+
+## Simple DevOps Example
+
+Run deployment using Ansible:
+
+```bash
+ansible-playbook deploy.yml
